@@ -1,0 +1,32 @@
+#basic operations divided by comments 
+
+#most common print Hello request
+print("Hello World")
+
+#Print hello name
+Name = 'Ashley'
+  print("Hello " + Name)
+
+#quick calculator
+num1 = X
+
+num2 = X
+
+results = num1 + num2
+
+print(results)
+
+#using python as a calculator 2
+#can use basic format on any function (*, +, -, /)
+print(X * X)
+
+#returning variable values example 
+def convert_seconds(seconds):
+        hours = seconds // 3600
+        minutes = (seconds - hours * 3600) // 3600
+        remaining_seconds = seconds = seconds - hours * 3600 - minutes * 60
+        return hours, minutes, remaining_seconds
+        
+hours, minutes, seconds, = convert_seconds(5000)
+print(hours, minutes, seconds)
+
