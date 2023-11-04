@@ -1,0 +1,26 @@
+# Prompt the user for input by completing the code
+num1 = float(input("For Calculations, Enter First Number: "))
+num2 = float(input("For Calculations, Enter Second Number: "))
+ 
+# Perform calculations
+# Outputs 3 lines for the following, addition, subtraction and multiplication based on user input
+addition_result = num1+num2
+subtraction_result = num1-num2
+multiplication_result = num1*num2
+
+# ouputs 4th line for division based on user input while managing zero division error 
+if num2 != 0:
+    # Input the code to resolve this
+    division_result = (num1 / num2)
+else:
+    # Input the code to resolve this
+    division_result = ("Not Divisable by 0")
+
+print(addition_result)
+print(subtraction_result)
+print(multiplication_result)
+print(division_result) 
+
+# Displays results in order of addition, subtraction, multiplication, and division based on user input 
+# If either number is a zero, the statement "Not divisable by zero" prints along with the remaining results 
+# there should be four print statements
